@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--Add by zhangtao 20150924 start -->
+    <!-- Default white lcd setting.-->
+    <string name="pref_camera_white_lcd_default" translatable="false">off</string>
+    <string name="pref_camera_white_lcd_title">White Lcd</string>
+    <string name="pref_camera_white_lcd_entry_on">on</string>
+    <string name="pref_camera_white_lcd_entry_off">off</string>
+    <!--Add by zhangtao 20150924 end -->
+</resources>

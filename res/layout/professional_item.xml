@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="8dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/ic_pro_bg"
+    android:orientation="vertical" >
+
+	<TextView
+	    android:id="@+id/prof_item_name"
+	    android:text="@string/pref_camera_flashmode_title"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="24dp"
+	    android:singleLine="true" />
+	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="5dp" />
+	<GridView 
+	    android:id="@+id/prof_item_icon"
+	    android:layout_width="match_parent"
+	    android:layout_height="36dp"
+	    android:horizontalSpacing="0dp" />
+	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="5dp" />
+	<SeekBar
+	    android:id="@+id/prof_item_slider"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:focusable="true"
+	    android:focusableInTouchMode="true" />
+	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="5dp" />
+</LinearLayout>

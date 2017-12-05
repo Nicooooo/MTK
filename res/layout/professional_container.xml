@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.ProRotateLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:camera="http://schemas.android.com/apk/res/com.mediatek.camera"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:layout_marginLeft="@dimen/prof_margin_left"
+    android:layout_marginBottom="@dimen/prof_margin_bottom"
+    android:splitMotionEvents="false" >
+    <com.android.camera.ui.MaxLinearLayout
+        android:id="@+id/container"
+        android:layout_width="@dimen/setting_container_width"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/setting_container_padding_left"
+        android:paddingEnd="@dimen/setting_container_padding_right"
+        android:paddingTop="@dimen/setting_container_padding_top"
+        android:paddingBottom="@dimen/setting_container_padding_bottom"
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        camera:maxHeight="@dimen/prof_container_height_max"
+        android:splitMotionEvents="false">
+        <include layout="@layout/professional_item" />
+        <TabHost android:id="@+id/tab_title"
+            android:layout_width="@dimen/prof_tab_width_max"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <TabWidget 
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_pro_bg"
+                android:paddingStart="@dimen/prof_tab_padding_left"
+                android:paddingEnd="@dimen/prof_tab_padding_left"
+                android:paddingTop="@dimen/prof_tab_padding_top"
+                android:paddingBottom="@dimen/prof_tab_padding_top"
+                android:splitMotionEvents="false">
+            </TabWidget>
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:splitMotionEvents="false">
+            </FrameLayout>
+        </TabHost>
+    </com.android.camera.ui.MaxLinearLayout>
+</com.android.camera.ui.ProRotateLayout>

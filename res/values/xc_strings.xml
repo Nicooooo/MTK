@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="pref_camera_shutter_sound_title">Shutter sound</string>
+  <string name="pref_camera_shutter_sound_default" translatable="false">off</string>
+  <string name="pref_camera_shutter_sound_entries_on">On</string>
+  <string name="pref_camera_shutter_sound_entries_off">Off</string>
+  <string name="show_flashlight_toast">Power less than 15%, can not turn on the flash.</string>
+
+    <string name="pref_camera_grid_title">Grid Lines</string>
+    <string name="pref_camera_grid_default" translatable="false">off</string>
+    <string name="pref_camera_grid_entries_on">On</string>
+    <string name="pref_camera_grid_entries_off">Off</string>
+
+    <string name="pref_camera_manualfocus_title">Manual Focus</string>
+    <string name="pref_camera_manualfocus_default" translatable="false">auto</string>
+    <string name="pref_camera_manualfocus_entry_auto">Auto</string>
+    <string name="pref_camera_manualfocus_entry_0">0</string>
+    <string name="pref_camera_manualfocus_entry_1"></string>
+    <string name="pref_camera_manualfocus_entry_9">∞</string>
+
+    <string name="pref_camera_manual_shutter_title">Exposure time</string>
+    <string name="pref_camera_manual_shutter_default" translatable="false">0</string>
+    <string name="pref_camera_manual_shutter_auto">auto</string>
+    <string name="pref_camera_manual_shutter_0">0.5</string>
+    <string name="pref_camera_manual_shutter_1">1</string>
+    <string name="pref_camera_manual_shutter_2">2</string>
+    <string name="pref_camera_manual_shutter_4">4</string>
+    <string name="pref_camera_manual_shutter_6">6</string>
+    <string name="pref_camera_manual_shutter_8">8</string>
+    <string name="pref_camera_manual_shutter_12">12</string>
+	<!-- Add by guanxiubiao for KYQAZEN-273 add volume key function menu 20161010 start -->
+    <string name="pref_camera_volume_response_title">Volume keys</string>
+    <string name="pref_camera_volume_response_default" translatable="false">shoot</string>
+    <string name="pref_camera_volume_response_entrie_zoom">Zoom</string>
+    <string name="pref_camera_volume_response_entrie_shoot">Shoot</string>
+    <string name="pref_camera_volume_response_entrie_volume">Volume</string>
+	<!-- Add by guanxiubiao for KYQAZEN-273 add volume key function menu 20161010 end -->
+	<!-- //XCSW2 wucaihong 20170331 KYJSEFLY-110 start  -->
+	<string name="pref_640_480_VGA_string">(0,3M)640x480</string>
+	<string name="pref_1280_960_1.3M_string">(1,3M)1280х960</string>
+	<string name="pref_1600_1200_2M_string">(2M)1600х1200</string>
+	<string name="pref_1920_1088_2M_string">(2M)1920x1088</string>
+	<string name="pref_2048_1536_3M_string">(3M)2048х1536</string>
+	<string name="pref_2560_1920_5M_string">(5M)2560x1920</string>
+	<string name="pref_3264_2448_8M_string">(8M)3264x2448</string>
+	<string name="pref_4096_3072_12M_string">(12M)4096x3072</string>
+	<string name="pref_4160_3120_13M_string">(13M)4160x3120</string>
+	<string name="pref_1280_720_1M_string">(1M)1280x720</string>
+	<string name="pref_2560_1440_4M_string">(4M)2560x1440</string>
+	<string name="pref_3328_1872_6M_string">(6M)3328x1872</string>
+	<string name="pref_4096_2304_9.5M_string">(9,5M)4096x2304</string>
+	<!--//XCSW2 wucaihong 20170331 KYJSEFLY-110 end  -->
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pref_camera_shutter_sound_title">Âm màn trập</string>
+    <string name="pref_camera_shutter_sound_entries_on">Bật</string>
+    <string name="pref_camera_shutter_sound_entries_off">Tắt</string>
+
+    <string name="pref_camera_grid_title">Khung lưới</string>
+    <string name="pref_camera_grid_entries_on">Bật</string>
+    <string name="pref_camera_grid_entries_off">Tắt</string>
+
+    <string name="pref_camera_manualfocus_title">Lấy nét tay</string>
+    <string name="pref_camera_manualfocus_entry_auto">Tự động</string>
+
+    <string name="pref_camera_manual_shutter_title">Thời gian phơi sáng</string>
+    <string name="pref_camera_manual_shutter_auto">Tự động</string>
+</resources>

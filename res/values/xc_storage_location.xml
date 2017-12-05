@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pref_camera_storage_location_default" translatable="false">external</string>
+    <string name="pref_camera_storage_location_title">Storage Location</string>
+    <string name="pref_camera_storage_location_entry_internal">Phone Storage</string>
+    <string name="pref_camera_storage_location_entry_external">SD Card</string>
+
+    <string-array name="pref_camera_storage_location_entries" translatable="false">
+        <item>@string/pref_camera_storage_location_entry_internal</item>
+        <item>@string/pref_camera_storage_location_entry_external</item>
+    </string-array>
+    <string-array name="pref_camera_storage_location_entryvalues" translatable="false">
+        <item>internal</item>
+        <item>external</item>
+    </string-array>
+</resources>
